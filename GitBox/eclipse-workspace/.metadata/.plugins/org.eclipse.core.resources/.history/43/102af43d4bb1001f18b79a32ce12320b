@@ -1,0 +1,15 @@
+package Javapackage;
+
+public class JavaProgram1 {
+	
+	public static void main(String[] args) {
+		System.out.println("Main method");
+	}
+	public static void aMethod() {
+		System.out.println("A method");
+	}
+	public static void bMethod() {
+		System.out.println("B method");
+	}
+
+}

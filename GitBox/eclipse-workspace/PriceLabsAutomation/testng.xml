@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PriceLabs Automation Suite">
+    <test name="PriceLabs Functional Tests">
+        <classes>
+            <class name="com.testng.selenium.PriceLabsAutomation.tests.Tests" />
+          </classes>
+    </test>
+</suite>

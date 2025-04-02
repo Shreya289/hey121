@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-22T01:59:45 IST" name="PriceLabs Automation Suite" finished-at="2024-07-22T02:01:52 IST" duration-ms="127385">
+    <groups>
+    </groups>
+    <test started-at="2024-07-22T01:59:45 IST" name="PriceLabs Functional Tests" finished-at="2024-07-22T02:01:52 IST" duration-ms="127385">
+      <class name="com.testng.selenium.PriceLabsAutomation.tests.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T01:59:45 IST" name="setup" finished-at="2024-07-22T02:00:30 IST" duration-ms="44922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:1, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:00:30 IST" name="testLogin" finished-at="2024-07-22T02:01:05 IST" duration-ms="34581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLisitingsPopup()[pri:2, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:01:05 IST" name="testLisitingsPopup" finished-at="2024-07-22T02:01:10 IST" duration-ms="5543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLisitingsPopup -->
+        <test-method signature="testmanageListingsDropdown()[pri:3, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:01:10 IST" name="testmanageListingsDropdown" finished-at="2024-07-22T02:01:16 IST" duration-ms="5615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmanageListingsDropdown -->
+        <test-method signature="clickOnPriceLabsLogoTest()[pri:4, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:01:16 IST" name="clickOnPriceLabsLogoTest" finished-at="2024-07-22T02:01:27 IST" duration-ms="11701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPriceLabsLogoTest -->
+        <test-method signature="clickOnReviewPricesTest()[pri:5, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:01:27 IST" name="clickOnReviewPricesTest" finished-at="2024-07-22T02:01:29 IST" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnReviewPricesTest -->
+        <test-method signature="navigationToBillingDetailsUnderProfileTest()[pri:6, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:01:29 IST" name="navigationToBillingDetailsUnderProfileTest" finished-at="2024-07-22T02:01:41 IST" duration-ms="11941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToBillingDetailsUnderProfileTest -->
+        <test-method signature="operationUnderMulticalendarTest()[pri:7, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:01:41 IST" name="operationUnderMulticalendarTest" finished-at="2024-07-22T02:01:52 IST" duration-ms="10916" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=126.0.6478.183)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59f80f6ea4bac8d3da10fc4ec6aecb5a, clickElement {id=f.662B26C7C1C5B73CC50C898641ED5BE9.d.66F13B071F731639D37F7C7DE294251C.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65250/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (59f80f6ea4bac8d3da10fc4ec6aecb5a)] -> xpath: (//input[@class='chakra-switch__input'])[16]]
+Session ID: 59f80f6ea4bac8d3da10fc4ec6aecb5a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.183)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59f80f6ea4bac8d3da10fc4ec6aecb5a, clickElement {id=f.662B26C7C1C5B73CC50C898641ED5BE9.d.66F13B071F731639D37F7C7DE294251C.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65250}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65250/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (59f80f6ea4bac8d3da10fc4ec6aecb5a)] -> xpath: (//input[@class='chakra-switch__input'])[16]]
+Session ID: 59f80f6ea4bac8d3da10fc4ec6aecb5a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.testng.selenium.PriceLabsAutomation.pages.Page.operationUnderMulticalendar(Page.java:153)
+at com.testng.selenium.PriceLabsAutomation.tests.Tests.operationUnderMulticalendarTest(Tests.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationUnderMulticalendarTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testng.selenium.PriceLabsAutomation.tests.Tests@73eb439a]" started-at="2024-07-22T02:01:52 IST" name="teardown" finished-at="2024-07-22T02:01:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.selenium.PriceLabsAutomation.tests.Tests -->
+    </test> <!-- PriceLabs Functional Tests -->
+  </suite> <!-- PriceLabs Automation Suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+package Javapackage;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int a[] = {1, 2, 3, 4, 5,6};
+        System.out.println(a[0]);
+        System.out.println(a[5]);
+        
+        String b[] = {"java", "selenium ", "class"};
+        System.out.println(b[0]);
+        System.out.println(b[1]);
+        
+        Object c [] = {"java" , "selnium", 1, 4, 'c'};
+        System.out.println(c[0]);
+        System.out.println(c[4]);
+        method1();
+        method2();
+        
+        
+	}
+	public static void method1() {
+		int a =10;
+		System.out.println(a);
+	}
+	public static method2() {
+		int b= 5;
+		System.out.println(b);
+	}
+	
+	
+	
+
+}
