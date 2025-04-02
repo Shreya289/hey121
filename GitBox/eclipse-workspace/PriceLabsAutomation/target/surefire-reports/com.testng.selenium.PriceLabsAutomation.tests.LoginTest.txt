@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.testng.selenium.PriceLabsAutomation.tests.LoginTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.543 s <<< FAILURE! - in com.testng.selenium.PriceLabsAutomation.tests.LoginTest
-setup(com.testng.selenium.PriceLabsAutomation.tests.LoginTest)  Time elapsed: 0.388 s  <<< FAILURE!
-java.lang.IllegalStateException: The driver executable must exist: C:\Users\aksha\eclipse-workspace\PriceLabsAutomation\EdgeDriver.exe
-	at com.testng.selenium.PriceLabsAutomation.tests.LoginTest.setup(LoginTest.java:24)
-
